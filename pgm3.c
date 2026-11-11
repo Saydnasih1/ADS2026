@@ -12,6 +12,7 @@ int main()
    sum+=marks[i];
   }
  avg=(double) sum/n;
+ printf("sum=%d \n",sum);
  printf("Average=%.2lf\n",avg);
  return 0;
 
